@@ -1,0 +1,41 @@
+Admin:-
+
+1. Delete Movie: /admin/deleteMovie/{MovieName}
+
+2.Update Movie: /admin/UpdateMovie/{MovieName}
+
+3.Search Movie: /admin/SearchMovie/{MovieName}
+
+4.Add Movie: /admin/AddMovie
+
+5.Search Customer: /admin/SearchCustomer
+
+6.View Customer: /admin/viewCustomer
+
+7.View Customer movie history in reverse order: /admin/{customer}/viewHistory
+
+8.View top users based on selection: /admin/viewTopUsers
+
+9.View number of views of any movie for given period of time: admin/displayViews
+
+10. Get different kind of users : /admin/getUniqueUsers
+
+11. get different kinds of income for given period: /admin/getIncome
+
+---------------------------------------------------------
+Customer features:
+
+1. adding Subscription : customer/Subscribe/{customerID}
+
+2. View Subscription status(view when subscription will be over): customer/{customerID}/viewStatus
+
+3. Make payment: customer/{customerID}/makePayment
+
+4. Search Movies: customer/SearchMovies/{name}
+
+5. Search Movie: customer/SearchMovie/{name}
+
+6. Review a movie: customer/ReviewMovie/{MovieName}
+
+7. View Movies by category: customer/getMovies
+

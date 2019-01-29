@@ -1,0 +1,32 @@
+#financial{
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  #table1 {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+}
+#table1 th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+#table1 td {
+    font-size: 16px;
+    
+}
+
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#table1 tr:hover {background-color: #ddd;}
